@@ -4,10 +4,20 @@
     box-sizing: border-box;
 }
 
-header, main, footer{
+header, footer{
     padding: 20px;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Bacasime Antique', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Ysabeau Infant', sans-serif;
 }
 
 header{
@@ -16,6 +26,7 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 25vh
+    
     
    
 }
@@ -42,17 +53,6 @@ header ul button {
     border: none;
     cursor: pointer;
     color: white;
-    font-family: 'Agdasima', sans-serif;
-    font-family: 'Bacasime Antique', serif;
-    font-family: 'Bebas Neue', sans-serif;
-    font-family: 'Belanosima', sans-serif;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Mulish', sans-serif;
-    font-family: 'Playfair Display', serif;
-    font-family: 'Press Start 2P', cursive;
-    font-family: 'Rubik', sans-serif;
-    font-family: 'Special Elite', cursive;
-    font-family: 'Ysabeau Infant', sans-serif;
     font-weight: bold;
     font-size: 15px;
    
@@ -104,22 +104,22 @@ button:hover {
     margin:12px;
     justify-content: center;
     align-items: center;
+    font-size: 17px;
+    font-weight:bold;
+    color: #042877;
     font-family: 'Agdasima', sans-serif;
-font-family: 'Bacasime Antique', serif;
-font-family: 'Bebas Neue', sans-serif;
-font-family: 'Belanosima', sans-serif;
-font-family: 'Lato', sans-serif;
-font-family: 'Mulish', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Rubik', sans-serif;
-font-family: 'Special Elite', cursive;
-font-family: 'Ysabeau Infant', sans-serif;
-font-size: 17px;
-font-weight:bold;
-color: #042877;
-
-   
+    font-family: 'Bacasime Antique', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Ysabeau Infant', sans-serif;
 }
+
 
 .c1{
     color: rgb(24, 9, 233);
@@ -128,32 +128,27 @@ color: #042877;
     text-align: center;
     justify-self: center;
     background-image: radial-gradient(circle at 50% 120.71%, #ffd8d3 0, #ffd2d2 6.25%, #feccd0 12.5%, #fbc5ce 18.75%, #f7bccd 25%, #f1b4cb 31.25%, #e9aacb 37.5%, #dfa0ca 43.75%, #d396ca 50%, #c48dcb 56.25%, #b486cc 62.5%, #a180cf 68.75%, #8c7dd1 75%, #747bd3 81.25%, #557ad4 87.5%, #2779d5 93.75%, #007ad4 100%);
-    font-family: 'Agdasima', sans-serif;
-    font-family: 'Bacasime Antique', serif;
-    font-family: 'Bebas Neue', sans-serif;
-    font-family: 'Belanosima', sans-serif;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Mulish', sans-serif;
-    font-family: 'Playfair Display', serif;
-    font-family: 'Rubik', sans-serif;
-    font-family: 'Ysabeau Infant', sans-serif;
     font-size: 50px;
+    margin-top: 10px;
     
 
 }
-main{
-    background-image: url("https://i.pinimg.com/564x/ee/9d/ee/ee9deeaa225442fe8f410beb7216da95.jpg"); 
-    color: white;
-    display: grid;
-    padding: 20px;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
-    min-width: 100vh ;
-    padding-top: 45px;
-    padding-bottom: 55px;
 
+
+main{
+   background-image: url("https://i.pinimg.com/564x/ee/9d/ee/ee9deeaa225442fe8f410beb7216da95.jpg");
+   padding: 20px;
 }
 
+.contenedor{ 
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    width: 100vh ;
+    padding: 30px;
+    margin-left: 15px;
+}
 
 .cont-charact{
     margin-top: 45px;
@@ -200,13 +195,12 @@ main{
 
 
 .watch{
-    color: rgb(255, 255, 255);
     width: 20%;
     padding: 10px;
     border-radius: 5px;
     border: solid, 1px;
-    border-color: #9030e0;
-    background-color: #9030e0;
+    border-color: #9b5dce;
+    background-color: #9b5dce;
 } 
 
 .watch:hover {
@@ -227,5 +221,104 @@ footer ul{
     list-style: none;
     text-align: left;
 }
+
+
+@media (max-width:880px){
+     .contenedor {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 10px;
+    }
+    .home img{
+        width: 150px;
+    }
+
+    .home .p{
+        font-size: 15px;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+    header img{
+        width: 100px;
+    }
+}
+   
+@media (max-width:440px){
+    .contenedor {
+       grid-template-columns: 1fr 1fr;
+       padding: 30px;
+       gap: 10px;
+   }
+
+   header img{
+    width: 150px;
+   }
+   
+   .logo{
+    width: 200px;
+   }
+
+   header .buttons{
+    width: 80px;
+   }
+
+   .home img{
+    width: 70px;
+   }
+
+   .p{
+    padding: 15px;
+    height: auto;
+    font-size: 8px;
+   }
+
+   footer{
+       flex-direction: column;
+   }
+
+   header img{
+       width: 100px;
+   }
+}
+
+@media (max-width:440px){
+ .contenedor {
+       grid-template-columns: 1fr 1fr;
+       padding: 10px;
+   }
+
+   header img{
+    width: 100px;
+   }
+   
+   .logo{
+    width: 200px;
+   }
+
+   header .buttons{
+    width: 80px;
+   }
+
+   .home img{
+    width: 70px;
+   }
+
+   .p{
+    flex-wrap: wrap;
+    height: auto;
+    font-size: 10px;
+   }
+
+   footer{
+       flex-direction: column;
+   }
+
+   header img{
+       width: 100px;
+   }
+}
+
 
 
