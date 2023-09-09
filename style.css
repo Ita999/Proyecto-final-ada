@@ -193,6 +193,9 @@ footer ul{
         grid-template-columns: 1fr;
         padding: 20px;
     }
+    main .watch-button{
+        text-align: center;
+    }
     header {
         flex-direction: column;
     }
@@ -201,6 +204,9 @@ footer ul{
     main .contenedor {
         grid-template-columns: 1fr;
         padding: 20px;
+    }
+    main .watch-button{
+        text-align: center;
     }
     header div{
         flex-direction: column;
